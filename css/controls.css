@@ -1,0 +1,169 @@
+#controlsWrapper {
+    position: absolute;
+    top: 483px;
+    left: 0;
+    width: 920px;
+    height: 36px;
+    /*opacity: 0;*/
+    border: 1px solid red;
+}
+
+#volumeSlider {
+    position: absolute;
+    width: 25px;
+    height: 118px;
+    bottom: 38px;
+    left: 852px;
+    /*opacity: 0;*/
+}
+
+.volumeSliderUp {
+    background: url("../assets/VolSliderBackground.png") 0 0 no-repeat;
+}
+
+.volumeSliderOver {
+    background: url("../assets/VolSliderBackground.png") -25px 0 no-repeat;
+}
+
+#volumeThumb {
+    position: absolute;
+    background: url("../assets/VolumeThumb.png") 0 0 no-repeat;
+    width: 19px;
+    height: 10px;
+    left: 4px;
+    top: 0px;
+    margin-top: 12px;
+}
+
+.playerControl {
+    display: table-cell;
+    width: 30px;
+    height: 28px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    padding: 0px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 15px;
+    float: left;
+}
+
+.playButtonUp {
+    background: url("../assets/PlayControls.png") 0 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+.playButtonOver {
+    background: url("../assets/PlayControls.png") -34px 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+.pauseButtonUp {
+    background: url("../assets/PlayControls.png") -68px 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+.pauseButtonOver {
+    background: url("../assets/PlayControls.png") -102px 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+.muteButtonUp {
+    background: url("../assets/MuteControls.png") 0 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+.muteButtonOver {
+    background: url("../assets/MuteControls.png") -34px 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+.unmuteButtonUp {
+    background: url("../assets/MuteControls.png") -68px 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+.unmuteButtonOver {
+    background: url("../assets/MuteControls.png") -102px 0 no-repeat;
+    width: 34px;
+    height: 28px;
+}
+
+#scrubPanel {
+    position: relative;
+    top: 0px;
+    width: 759px;
+    height: 27px;
+    cursor: default;
+}
+
+#scrubCursor {
+    /*position: relative;*/
+    left: 0px;
+    background: url("../assets/VideoThumb.png") 0 0 no-repeat;
+    width: 8px;
+    height: 21px;
+    margin-left: 48px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.scrubPanelUp {
+    background: url("../assets/TimeLineBG.png") 0 0 no-repeat;
+}
+
+.scrubPanelOver {
+    background: url("../assets/TimeLineBG.png") 0 -28px no-repeat;
+}
+
+.timeDisplay {
+    color: white;
+    font-size: 0.7em;
+    position: absolute;
+    text-align: right;
+    width: 30px;
+    font-family: sans-serif, Helvetica, Geneva;
+}
+
+.timeDisplayUp {
+    color: #ffffff;
+}
+
+.timeDisplayOver {
+    color: #585858;
+}
+
+#currentTime {
+    left: 9px;
+    top: 8px;
+}
+
+#totalTime {
+    left: 718px;
+    top: 8px;
+}
+
+/*TOOLTIP*/
+
+.toolTip {
+    position: absolute;
+    background: url("../assets/tooltip.png") 0 0 no-repeat;
+    font-family: sans-serif, Helvetica, Geneva;
+
+    width: 45px;
+    height: 31px;
+    text-align: center;
+    font-size: 0.6em;
+    padding: 6px 1px;
+    pointer-events:none;
+}

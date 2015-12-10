@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+    <title>TXU</title>
+
+    <script type="text/javascript" src="libs/modernizr.custom.46391.js"></script>
+    <script type="text/javascript" src="libs/bc-mapi.js"></script>
+    <script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="libs/jquery/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="libs/swfobject.js"></script>
+    <script type="text/javascript" src="libs/addtothenoise/utils.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+
+    <script type="text/javascript" src="js/TXU_video.js?id=7"></script>
+    <script type="text/javascript" src="js/TXU_FlashVideo.js"></script>
+    <script type="text/javascript" src="js/TXU_controls.js"></script>
+    <script type="text/javascript" src="js/main.js?id=10"></script>
+
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/site.css"/>
+</head>
+<body style="background-color: #b8cec4">
+
+<div id="wrapper">
+    <div id="topFPO">
+        <img src="fpo/TXU_top.png" alt=""/>
+    </div>
+
+
+    <!--VIDEO COMPONENT-->
+
+    <div id="videoSelectionComponent">
+        <div id="spinner">
+            <img src="assets/animated_spinner.gif" alt=""/>
+        </div>
+        <div id="tapScreen" class="tapScreenStart"></div>
+        <div id="videoPlayerWrapper">
+
+        </div>
+
+
+        <!-- VIDEO CONTROLS -->
+
+        <div id="controlsWrapper">
+            <div id="playerControls">
+                <div id="playPauseButton" class="playerControl playButtonUp">
+                </div>
+                <div id="scrubPanel" class="playerControl scrubPanelUp">
+                    <div id="currentTime" class="timeDisplay timeDisplayUp">0:00</div>
+                    <div id="totalTime" class="timeDisplay timeDisplayUp">0:00</div>
+                    <div id="scrubBorder">
+                        <div id="dragBehind"></div>
+                        <div id="scrubCursor" title="time"></div>
+                    </div>
+                </div>
+                <div id="muteUnmuteButton" class="playerControl muteButtonUp"></div>
+                <div id="volumeSlider" class="volumeSliderUp">
+                    <div id="volumeThumb"></div>
+                </div>
+            </div>
+        </div>
+
+        <table id="videoSelectionWrapper">
+            <tr>
+                <td class="navUp" data-src="1">Overview</td>
+                <td class="navUp" data-src="2">Track Usage</td>
+                <td class="navUp" data-src="3">View Bill</td>
+                <td class="navUp" data-src="4">Pay Bill</td>
+                <td class="navUp" data-src="5">Set Profile &amp; Preferences</td>
+                <td class="navUp" data-src="6">Shop Plans &amp; Products</td>
+                <td class="navUp" data-src="7">Get Help</td>
+                <td class="navUp" data-src="8">On-the-Go</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- END VIDEO COMPONENT-->
+
+    <div id="bottomFPO">
+        <img src="fpo/TXU_bottom.png" alt=""/>
+    </div>
+</div>
+
+</body>
+</html>
