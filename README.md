@@ -1,4 +1,6 @@
 # txu_energy
-html5 video player w/playlist
+Html5 video player with autoplay playlist. 
+After each video is a clickable graphic insert before proceeding to the next.
+Video files retrieved from Brightcove.
 
-not the final product, but an earlier develpoment version
+Not the final product, but an earlier develpoment version
